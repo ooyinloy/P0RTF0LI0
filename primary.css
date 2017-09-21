@@ -61,7 +61,7 @@ fix spacinf between projects
 */
 
 body {
- background-color:white;
+ background-color:	#FFFFFF;
 }
 
 a {
@@ -254,6 +254,7 @@ footer {
  width:100%;
  clear:both;
  height:100px;
+ max-width: 960px;
 
 }
 
@@ -359,14 +360,14 @@ footer {
 }
 
 #github{
-  font-size: 43px;
+  font-size: 86px;
   color: black;
   width: 100%;
 	text-align: center;
-}
+} 
 
 #linkedin{
-  font-size: 43px;
+  font-size: 86px;
   color: blue;
   width: 100%;
 	text-align: center;
@@ -379,4 +380,33 @@ footer {
 .ending-note{
 	color: gray;
 	font-size: 4px;
+}
+
+.self{
+	height:300px;
+	width:300px;
+	border-radius: 50%;
+	display: block;
+    margin: 0 auto;
+
+
+
+}
+
+.skills {
+	
+		height:150px;
+	width:130px;
+	   margin: 0 auto;
+  width: 14em;
+  
+
+	  
+	
+}
+
+.skillsText {
+		float: left;
+
+
 }
